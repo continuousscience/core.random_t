@@ -31,6 +31,7 @@ void parse(sil_State *S, const uint8_t *buf, size_t len) {
 }
 
 void handler(Random *v) {
+    free(v);
 }
 
 void copy(sil_State *S) {
